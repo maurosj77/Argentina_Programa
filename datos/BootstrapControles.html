@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <title>Prueba de Bootstrap 5</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body>
+
+  <div class="container">
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="mail" class="form-label">Mail</label>
+        <input type="email" class="form-control" id="mail">
+      </div>
+      <div class="col-md-6">
+        <label for="clave" class="form-label">Clave</label>
+        <input type="password" class="form-control" id="clave">
+      </div>
+      <div class="col-md-12">
+        <label for="direccion" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="direccion" placeholder="Calle Numero">
+      </div>
+      <div class="col-md-6">
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="ciudad">
+      </div>
+      <div class="col-md-4">
+        <label for="provincia" class="form-label">Provincia</label>
+        <select id="provincia" class="form-select">
+          <option selected>Elija...</option>
+          <option value="Córdoba">Córdoba</option>
+          <option value="Buenos Aires">Buenos Aires</option>
+          <option value="Santa Fe">Santa Fe</option>
+          <option value="Santa Cruz">Santa Cruz</option>
+          <option value="Santa Luis">Santa Luis</option>
+          <option value="Santiago del Estero">Santiago del Estero</option>
+          <option value="Tucuman">Tucuman</option>
+          <option value="La Rioja">La Rioja</option>
+          <option value="Jujuy">Jujuy</option>
+          <option value="Entre Rios">Entre Rios</option>
+          <option value="Misiones">Misiones</option>
+          <option value="Chubut">Chubut</option>
+          <option value="Neuquen">Neuquen</option>
+          <option value="Tierra del Fuego">Tierra del Fuego</option>
+          <option value="La Pampa">La Pampa</option>
+          <option value="Mendoza">Mendoza</option>
+          <option value="Rio Negro">Rio Negro </option>
+          <option value="Formosa">Formosa</option>
+          <option value="Chaco">Chaco</option>
+          <option value="San Juan">San Juan</option>
+          <option value="Corrientes">Corrientes</option>
+          <option value="Salta">Salta</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="codigopostal" class="form-label">Código postal</label>
+        <input type="text" class="form-control" id="codigopostal">
+      </div>
+      <div class="col-md-12">
+        <label for="comentarios" class="form-label">Deje aquí sus comentarios</label>
+        <textarea class="form-control" rows="5" id="comentarios" name="comentarios"></textarea>
+      </div>
+      <div class="col-md-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="terminos">
+          <label class="form-check-label" for="terminos">
+            Acepta los términos y condiciones
+          </label>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary">Confirmar</button>
+      </div>
+    </form>
+  </div> 
+</body>
+</html>
