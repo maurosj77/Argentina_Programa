@@ -1,11 +1,15 @@
-function addElement () {
-    // obtener el elemento div con id = "div_example"
-    const existDiv = document.getElementById("div_example");
-    // crear un nuevo elemento div
-    const newDiv = document.createElement("div");
-    // agregar el nuevo elemento div existente
-    existDiv.appendChild(newDiv);
-   }
-   
+var btn = document.getElementById("btn"),
+  caja = document.getElementById("caja"),
+  contador = 0;
 
-   document.write("kaka");
+function cambio() {
+  if (contador == 0) {
+    caja.classList.add("azul");
+    contador = 1;
+  } else {s
+    caja.classList.remove("azul");
+    contador = 0;
+  }
+}
+
+btn.addEventListener("click", cambio);
