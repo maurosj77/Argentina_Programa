@@ -1,0 +1,19 @@
+* {background-color: rgb(191, 68, 68);
+  text-align: center;
+}
+
+#numero {
+  color: black;
+  background-color: aquamarine;
+  font-size: x-large;
+  text-align: center;
+  text-size-adjust: 100px;
+  margin: 10px;
+  padding-bottom: 100px;
+  align-content: center;
+}
+button{
+    size: 200px;
+    background-color: rgb(216, 216, 31);
+
+}
