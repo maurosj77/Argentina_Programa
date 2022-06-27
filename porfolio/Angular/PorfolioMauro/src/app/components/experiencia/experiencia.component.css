@@ -1,0 +1,13 @@
+.row{
+  border-radius: 30px 30px 30px 30px;
+  margin:auto;
+  background-color: rgb(166, 166, 255);
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.margen{
+  padding-left: 30px;
+}
+h1 h3{
+  display: inline;
+}
