@@ -37,6 +37,11 @@
 
  }
  #foto-pefil{
+
+  border-radius: 10px 50px 10px 50px;
+
+ }
+ #foto-pefil{
   border: 2px solid rgb(37, 9, 9);
   border-radius: 5px;
  }
@@ -44,7 +49,8 @@
   #foto-perfil{
     position: absolute;
     width: 20%;
-    border-radius: 100%;
+
+    border-radius: 10px 50px 50px 50px;
 left: 5%;
 top: 300px;
   }
